@@ -1,13 +1,312 @@
 *{
     margin: 0%;
     padding: 0%;
+    font-family: gilroy;
+   color: #fff;
 }
 html,body{
     height: 100%;
     width: 100%;
 }
+.main{
+    background-color: black;
+    
+}
 nav{
-    height: 100vh;
+    color: #fff;
+    height: 10vh;
     width: 100vw;
-    background-color: aqua;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around                                                                   ; 
+   
+}
+.option{
+    display: flex;
+    gap: 5vw;
+    margin-left: 20px;
+}
+.icon{
+    display: flex;
+    gap: 2vw;
+    
+}
+.home{
+    position: relative;
+}
+.home .one{
+    height: 90vh;
+    width: 15vw;
+    display: flex;
+   align-items: center;
+    gap: 3vw;
+    rotate: -90deg; 
+}
+
+.home .left{
+    width: 41vw;
+    height: 45vh;
+    background-color: rgb(143, 23, 43);
+ position: absolute;
+ margin-bottom:100vh ;
+ 
+}
+
+.home .left .botton{
+    rotate: 90deg;
+    height: 30px;
+    width: 50px;
+    background-color: red;
+margin-top: 60px;
+margin-right: 100vh;
+}
+
+.home .right{
+    width: 41vw;
+    height: 45vh;
+    background-color: rgb(156, 111, 119);
+ position: absolute;
+ margin-right: 100vh;
+}
+
+.page2{
+    width: 60vw;
+    height: 100vh;
+    margin-left: 20vw;
+}
+
+.page2 .top{
+    display: flex;
+}
+
+.page2 .top .left{
+    width: 30vw;
+    height: 40vh;
+}
+
+.page2 .top .left h5{
+    color: rgb(180, 169, 169);
+   letter-spacing:1px;
+}
+
+.page2 .top .left h2{
+    margin-top: 3vh;
+}
+.page2 .top h6{
+    margin-top: 3vh;
+    color: #e9e8e8;
+    letter-spacing:1px;
+    margin-left: 2vw;
+}
+.page2 .top .right{
+    width: 30vw;
+    height: 40vh;
+}
+
+.page2 .top .right{
+    color: rgb(172, 158, 158);
+}
+.page2 .top p{
+    margin-top: 20px;
+}
+.page2 .top #p1{
+    margin-top: 40px;
+}
+
+.page2 h1{
+    font-size:80px;
+}
+.page2 .bottom{
+    
+    display: flex;
+    gap: 4vw;
+}
+.page2 .bottom .img1 .image1{
+    width: 12vw;
+    height: 30vh;
+    background-color: rgb(64, 42, 42);
+    border-radius: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1535957998253-26ae1ef29506?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8b2ZmaWNlfGVufDB8fDB8fHww);
+    background-size: cover;
+    margin-top: 7vh;
+}
+.page2 .bottom .img1 h3{
+    color: #e9e8e8;
+    margin-top: 2vh;
+}
+
+.page2 .bottom .img2 .image2{
+    width: 12vw;
+    height: 30vh;
+    background-color: rgb(64, 42, 42);
+    border-radius: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1621764654888-85f7e03d60d6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDF8YWV1NnJMLWo2ZXd8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    margin-top: 7vh;
+}
+.page2 .bottom .img2 h3{
+    color: #e9e8e8;
+    margin-top: 2vh;
+}
+
+.page2 .bottom .img3 .image3{
+    width: 12vw;
+    height: 30vh;
+    background-color: rgb(64, 42, 42);
+    border-radius: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1599687350452-f60014809d2a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDR8YWV1NnJMLWo2ZXd8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    margin-top: 7vh;
+}
+.page2 .bottom .img3 h3{
+    color: #e9e8e8;
+    margin-top: 2vh;
+}
+
+.page2 .bottom .img4 .image4{
+    width: 12vw;
+    height: 30vh;
+    background-color: rgb(64, 42, 42);
+    border-radius: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1600541519467-937869997e34?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YXBwbGUlMjBwaG9uZXxlbnwwfHwwfHx8MA%3D%3D);
+    background-size: cover;
+    margin-top: 7vh;
+}
+.page2 .bottom .img4 h3{
+    color: rgb(255, 165, 0);
+    margin-top: 2vh;
+
+}
+
+.page3{
+    height: max-content; 
+}
+.upper{
+    width: 65vw;
+    padding: 10vh 0 0 0;
+    margin-left: 17vw;
+    display: flex;
+    gap: 4vw;
+}
+.upper .left{
+    height: 58vh;
+    width : 30vw;
+    background-image: url(https://images.unsplash.com/photo-1593508512255-86ab42a8e620?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8VlIlMjBoZWFkc2V0fGVufDB8fDB8fHww);
+
+}
+.upper .right{
+    height: 58vh;
+    width : 32vw;
+   
+}
+.upper .right h6{
+    margin-top: 4vh;
+    color: #e9e8e8;
+}
+.upper .right h2{
+    margin-top: 2vh;
+}
+.upper .right .obj{
+    display: flex;
+    gap: 3vw;
+}
+.upper .right .obj h4{
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+}
+.upper .right p{
+    margin-top: 3vh;
+}
+.upper .right #color {
+    color: orange;
+}
+.page3 .down{
+    height: 14vh;
+    width: 50vw;
+    margin-left: 25vw;
+    margin-top: 15vh;
+}
+.page3 .down h6{
+    margin-left: 15vw;
+    color: #e9e8e8;
+}
+.page3 .down .logos{
+   height: 7vh;
+   width: 50vw;
+   margin-top: 5vh;
+   display: flex;
+   gap: 4.4vw;
+}
+.page3 .down .logos #image{
+    color: orange;
+}
+
+.page4{
+    display: flex;
+    justify-content: space-between;
+    padding: 15vh 0 0 0;
+    background-color: black;
+    
+}
+.page4 .left{
+    z-index: 99;
+    /* border: 1px solid red; */
+    overflow: hidden;
+    width: 50vw;
+    height: 80vh;
+    /* background-color: blue;  */
+    /* position: absolute; */
+    /* margin-left: 30vw;  */
+    margin-top: 13vh; 
+    padding-left: 20%;
+
+}
+.page4 .left .top{
+    display: flex;
+}
+.page4 .left .top .button{
+    height: 10vh;
+    width: 12vw;
+    background-color: pink;
+    border-radius: 40%;
+    background-image: url(https://images.unsplash.com/photo-1507537064587-464384459bb7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG1hbiUyMHRoYXQlMjB1c2luZyUyMHBob25lfGVufDB8fDB8fHww);
+    background-size: cover;
+    margin-top: 10px;
+}
+.page4 .left .top h1{
+    font-size: 90px;
+    margin-left: 2vw;
+}
+.page4 .left h1{
+    font-size: 90px;
+
+}
+.page4 .left p{
+    margin-top: 3vh;
+}
+.page4 .left .number{
+    display: flex;
+    gap: 3.9vw;
+}
+.page4 .left .number1{
+    display: flex;
+    margin-top: 5vh;
+}
+.page4 .left .number1 h1{
+    color: orange;
+}
+.page4 .left .number1 h6{
+    margin-top: 8vh;
+    margin-left: 0.2vw;
+}
+.page4 .right{
+    z-index: 85;
+    height: 80vh;
+    width: 50vw;
+    background-color: orange;
+    background-image: url(https://plus.unsplash.com/premium_photo-1680378871613-bfacb34787f8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzNXx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    border-top-left-radius: 50% ;
+    border-bottom-left-radius: 50% ;
 }
